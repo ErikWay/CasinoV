@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content='width=1000' />
+    <title>Online-casino Games</title>
+    <link rel="stylesheet" href="css/StyleForGame.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body class = "body">
+<header>
+    <div class="container">
+        <nav>
+            <ul class="menu">
+                <li class="menu_item"><a href="Index.html" class="menu_link" style=" font-size: 24px;">Index</a></li>
+                <li class="menu_item"><a href="cashGame.html" class="menu_link" style=" font-size: 24px; ">Cash</a></li>
+                <li class="menu_item"><a href="mainGame.html" class="menu_link" style=" font-size: 32px;text-shadow: #FC0 1px 0 10px;">Games</a></li>
+                <li class="menu_item"><a href="helpGame.html" class="menu_link" style=" font-size: 24px;">Connect</a></li>
+                <li class="menu_item"><a href="accountGame.html" class="menu_link" style=" font-size: 24px;">Account</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<div class ="games">
+    <img src="img/bgGames.png" alt="bg">
+    <div class="gameUnum">
+	<div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModalBtn">&times;</span>
+      <form id = "form-for-auto">
+          <label for="username" class = "text-for-auto">Game name</label>
+          <input type="text" id="username" name="username" required>
+    
+          <br><label for="password" class = "text-for-auto">Min bid</label>
+          <br><input type="minBid" id="password" name="password" required>
+
+          <br><label for="password" class = "text-for-auto" >Description</label>
+          <br><input type="message" id="password" name="password" required style="height: 90px;">
+        
+          <br><br><a href="mainGame.html"><input type="submit" value="Add Game" class = "button-for-auto"></a>
+        </form>
+      </div>
+  </div>
+        <div class = "sort">
+            <p>Sort by:</p>
+            <select>
+                <option>Relative</option>
+                <option>Favority</option>
+                <option>Rating</option>
+            </select>
+        </div>
+
+        <div class="d2">
+            <form>
+                <input type="text" placeholder="Searh here...">
+                <button type="submit"></button>
+            </form>
+        </div>
+      
+        <div class="gamesGame" onclick="location.href='https://en.wikipedia.org/wiki/Poker';">
+            <img src="img/PokerImg.png" alt="bg">
+            <p>
+                Poker <br><br>is a family of comparing card games in which 
+                players wager over which hand is best according to 
+                <br>min:10$ 
+            </p>
+            <input type="submit" value="Enter" class = "button-for-play">
+        </div>
+        <div class="gamesGame" onclick="location.href='https://en.wikipedia.org/wiki/Roulette';">
+            <img src="img/rollG.png" alt="bg">
+            <p>
+                Roulette <br><br>named after the French word meaning "little wheel" 
+                is a casino game which was likely developed from the 
+                <br>min:10$ 
+            </p>
+            <input type="submit" value="Enter" class = "button-for-play">
+        </div>
+        <div class="gamesGame" onclick="location.href='https://en.wikipedia.org/wiki/Roulette';">
+            <img src="img/rollG.png" alt="bg">
+            <p>
+                Roulette <br><br>named after the French word meaning "little wheel" 
+                is a casino game which was likely developed from the 
+                <br>min:10$ 
+            </p>
+            <input type="submit" value="Enter" class = "button-for-play">
+        </div>
+        <div class="gamesGame" onclick="location.href='https://en.wikipedia.org/wiki/Roulette';">
+            <img src="img/rollG.png" alt="bg">
+            <p>
+                Roulette <br><br>named after the French word meaning "little wheel" 
+                is a casino game which was likely developed from the 
+                <br>min:10$ 
+            </p>
+            <input type="submit" value="Enter" class = "button-for-play">
+        </div>
+        <div class="gamesGame" id="showModalBtn">
+            <img src="img/icons8-плюс.svg" style="left:30%" alt="bg">
+        </div>
+   </div>
+</div>
+
+
+
+
+
+<footer>
+    <h1>Erik’s Casino Company©</h1>
+    <img src="img/pillow.png" class="footer-img" alt="bg">
+</footer>
+<script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</body>
+</html>

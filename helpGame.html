@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content='width=1000' />
+    <title>Online-casino Games</title>
+    <link rel="stylesheet" href="css/StyleForGame.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body class = "body">
+<header>
+    <div class="container">
+        <nav>
+            <ul class="menu">
+                <li class="menu_item"><a href="Index.html" class="menu_link" style=" font-size: 24px;">Index</a></li>
+                <li class="menu_item"><a href="cashGame.html" class="menu_link" style=" font-size: 24px;">Cash</a></li>
+                <li class="menu_item"><a href="mainGame.html" class="menu_link" style=" font-size: 24px;">Games</a></li>
+                <li class="menu_item"><a href="helpGame.html" class="menu_link" style=" font-size: 32px;text-shadow: #FC0 1px 0 10px;">Connect</a></li>
+                <li class="menu_item"><a href="accountGame.html" class="menu_link" style=" font-size: 24px;">Account</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class ="games">
+    <img src="img/bgGames.png" alt="bg">
+   <div class="gameUnum">
+    <div class ="Connect" id = "4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 offset-md-1">
+                    <h1>Connect with Us</h1>
+                    <br><br><h5>
+                        Complete the contact form below to get in touch with our 
+                        <br>team. We are here to answer any questions you may have 
+                        <br>and help you with your casino needs.
+                    </h5>
+                </div>
+                <div class="col-md-4 offset-md-1">
+                    <form id = "form-for-connect">
+                        <div class = "container">
+                            <div class="row">
+                                <div class="col-md-5 offset-md-0">
+                                    <label for="name" class = "text-for-connect" style = "margin-left: -13px;">Name</label>
+                                    <br><input type="text" class="connect-name" name="name" required>
+                                </div>
+                                <div class="col-md-5 offset-md-2">
+                                    <label for="e-mail" class = "text-for-connect">E-mail</label>
+                                    <br><input type="text" class="connect-e-mail" name="e-mail" required>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                        <br><br><label for="message" class = "text-for-connect">Message</label>
+                        <br><input type="text" class="connect-message" name="message" required>
+                      
+                        <br><br><input type="submit" value="Send" class = "button-for-connect">
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+</div>
+
+
+
+
+
+<footer>
+    <h1>Erik’s Casino Company©</h1>
+    <img src="img/pillow.png" class="footer-img" alt="bg">
+</footer>
+<script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

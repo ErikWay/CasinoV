@@ -1,0 +1,521 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.body {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+header{
+  margin-top: 10px;
+  position: absolute;
+  flex-shrink: 0;
+  height: 70px;
+  background-color: black;
+  left: 5%;
+  right: 5%;
+  border-radius: 10px;
+  background: #2F0000;
+  box-shadow: 10px 10px 10px 5px #792626;
+  z-index: 100;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 70px;
+  list-style-type: none;
+  margin: 0px;
+}
+.menu .menu_link{
+  color: #FFF;
+  font-family: Piazzolla;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+
+}
+
+.games{
+  flex-shrink: 0;  
+  position: relative;
+  flex-wrap:wrap;
+  overflow-y: hidden;
+}
+
+.games img{
+  height: 100%;
+  width: 100%;
+  display: block;
+  background-size: cover
+}
+
+.gameUnum{
+  padding-top: 20px;
+  position: absolute;
+  width: 80%;
+  height: 63%;
+  margin-top: 40px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #772727;
+  box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  left: 50%;
+  top:40%;
+  transform: translate(-50%, -50%);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+footer{
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  height: 50px;
+  flex-shrink: 0;
+  background-color: #2F0000;
+  box-shadow: 0px 5px 4px 0px rgba(255, 177, 177, 0.50) inset;
+}
+
+.footer-img{
+  position: absolute;
+  display: block;
+  bottom: -300%;
+  left:10%;
+  width: 301px;
+  height: 232px;
+  flex-shrink: 0;
+  transform: translate(-50%, -50%);
+}
+
+footer h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: Piazzolla;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;    
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 24px;
+
+  
+}
+footer h4{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: Piazzolla;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;    
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 18px;
+
+  
+}
+
+.inputCash{
+ margin-top: 40px;
+  width: 401px;
+height: 49px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #772727;
+box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25) inset, 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button-for-pay{
+  margin-top: 40px;
+
+  text-align: center;
+  font-family: Piazzolla;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;   
+  width: 152px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 2px solid #FFF;
+  box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25);
+  background: none;
+  color: #FFF;
+  font-size: 24px;
+}
+
+.button-for-pay:hover {
+  background-color: #dddddd2c;
+}
+
+.payments{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 70px;
+  list-style-type: none;
+  margin: 0px;
+}
+.payments .pay_link{
+  color: #FFF;
+  font-family: Piazzolla;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  width: 200px;
+  height: 400px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #772727;
+  box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  margin-top: 50px;
+}
+
+.Connect{
+  width: 100%;
+  height: 720px;
+  background: linear-gradient(0deg, rgba(215, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.00) 100%), #2F0000;
+}
+
+.Connect .text-for-connect{
+  color: #FFF;
+  text-align: center;
+  font-family: Piazzolla;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#form-for-connect{
+  position: relative;
+  margin-top: 110px;
+}
+
+.Connect .connect-name{
+width: 235px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #772727;
+margin-left: -13px;
+box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.Connect .connect-e-mail{
+  width: 240px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #772727;
+box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25) inset;
+
+}
+
+.Connect .connect-message{
+  width: 515px;
+height: 257px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #772727;
+box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25) inset;
+
+}
+
+.button-for-connect{
+  position: relative;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: Piazzolla;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;   
+  width: 152px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 2px solid #FFF;
+  box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25);
+  background: none;
+  color: #FFF;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.button-for-connect:hover {
+  background-color: #dddddd2c;
+}
+
+.Connect h1{
+
+  color: #FFF;
+  font-family: Piazzolla;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Connect h5{
+  color: #FFF;
+  font-family: Piazzolla;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#acimg{
+  box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25);
+  position: relative;
+  display: block;
+  top:35%;
+  left:18%;
+  width: 400px;
+  height: 400px;
+  flex-shrink: 0;
+  transform: translate(-50%, -50%);
+}
+
+.bio{
+  box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25);
+  position: relative;
+  display: block;
+  left:50%;
+  width: 400px;
+  height: 400px;
+  flex-shrink: 0;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+  font-family: Piazzolla;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+}
+
+.bionaming{
+  position: absolute;
+  color: #FFF;
+  font-family: Piazzolla;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  left:37%;
+  top:-40%;
+
+}
+
+#showModalBtn{
+    cursor: pointer;
+  }
+
+  #modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    background: #2F0000;
+    box-shadow: 10px 10px 10px 0px rgba(79, 64, 64, 0.50) inset, 10px 10px 10px 0px rgba(1, 0, 0, 0.50);
+
+  }
+  
+ body .modal-content {
+    position: relative;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    color:white;
+
+  }
+  
+  .close {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 50px;
+    cursor: pointer;
+  }
+#username{
+    width: 260px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 10px;
+background: #772727;
+box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+#password{
+    width: 260px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+background: #772727;
+box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+.text-for-auto{
+    color: #FFF;
+text-align: center;
+font-family: Piazzolla;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+.button-for-auto{
+    width: 152px;
+height: 53px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 2px solid #FFF;
+box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25);
+background: none;
+color: #FFF;
+text-align: center;
+
+}
+.button-for-auto:hover {
+    background-color: #dddddd2c;
+  }
+
+#form-for-auto{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.gamesGame{
+    padding: 20px;
+    width: 45%;
+    height: 40%;
+    border-radius: 20px;
+    background: #2F0000;
+    box-shadow: 10px 10px 10px 0px rgba(79, 64, 64, 0.50) inset, 10px 10px 10px 0px rgba(1, 0, 0, 0.50);
+    margin: 30px;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.gamesGame img{
+  width: 40%; 
+  height: 90%;
+  margin: 10px; 
+  position: relative;
+  float: left;
+}
+
+.gamesGame p{
+  width: 50%; 
+  height: 90%; 
+  margin: 10px; 
+  position: relative;
+  float: left;
+  color: #FFF;
+  font-family: Piazzolla;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.button-for-play{
+  width: 152px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 2px solid #FFF;
+  box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25);
+  background: none;
+  color: #FFF;
+  position: relative;
+  right: 20%;
+  bottom: 20%;
+  float: right;
+}
+
+.button-for-play:hover {
+  background-color: #dddddd2c;
+}
+
+.d2 {
+  border-radius: 10px;
+background: #772727;
+box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25) inset, 4px 4px 4px 0px rgba(0, 0, 0, 0.25), -10px -10px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  position: absolute;
+  right:4%;
+  top: 2%;
+}
+.d2 input, .d2 button {
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+.d2 input {
+  width: 100%;
+  height: 42px;
+  border-radius: 10px;
+background: #a83838;
+box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25) inset, 4px 4px 4px 0px rgba(0, 0, 0, 0.25), -10px -10px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  padding-left: 15px;
+}
+.d2 button {
+  height: 26px;
+  width: 26px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #F15B42;
+  cursor: pointer;
+}
+.d2 button:before {
+  font-family: FontAwesome;
+  color: #F9F0DA;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sort{
+  position: relative;
+  float: top;
+  top: 1%;
+  left: 2%;
+  width: 100%;
+  height: 30px;
+}
+
+.sort select, .sort p{
+  display: inline-block;
+  color: #FFF;
+  font-family: Piazzolla;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 10px;
+}
+
+.sort select{
+  color: #2F0000;
+  width: 20%;
+}
